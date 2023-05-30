@@ -7,13 +7,12 @@
 * {
   font-family: sans-serif;
   font-weight: 600;
+  margin: 0;
+  padding: 0;
 }
 
 .head {
-
   background-color: var(--white);
-
-
 }
 
 .nav_list {
@@ -82,7 +81,7 @@
 }
 
 .img_cover {
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 .img_cover img {
@@ -96,8 +95,7 @@
 .up_content {
   position: absolute;
   top: 10%;
-  right: 20%;
-
+  right: 25%;
   justify-content: center;
   left: auto;
   justify-content: center;
@@ -106,8 +104,10 @@
 }
 
 .up_content h1 {
-  font-size: 80px;
-  color: #61ff7a
+  font-size: 70px;
+  color: #61ff7a;
+  margin-top: 90px;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 575.98px) {
@@ -121,7 +121,8 @@
 .up_content a {
   font-size: 30px;
   color: #61ff7a;
-  margin-left: 300px;
+  margin-left: 250px;
+
 }
 
 @media (max-width: 575.98px) {
@@ -133,30 +134,6 @@
 
 
 /* section 2 start */
-.s_three {
-  margin-left: 112px;
-  margin-right: 112px;
-}
-
-.s_three h1 {
-  font-size: 40px;
-}
-
-.three_cards {
-  display: flex;
-}
-
-@media (max-width: 1100px) {
-  .three_cards {
-    display: block;
-  }
-}
-
-@media (max-width: 575.98px) {
-  .s_three h1 {
-    font-size: 20px;
-  }
-}
 
 @media (max-width: 411.98px) {
   .s_three {
@@ -166,10 +143,83 @@
   }
 }
 
+
+.s_three {
+  margin-left: 112px;
+  margin-right: 112px;
+}
+
+.s_three h1 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+
+}
+
+@media (max-width: 575.98px) {
+  .s_three h1 {
+    font-size: 20px;
+  }
+}
+
+.three_cards {
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .three_cards {
+    display: block;
+  }
+}
+
+
+
 .card {
   margin-right: 120px;
 }
 
-/* .card img{
-  
-} */
+.card img {
+  width: 350PX;
+  height: 200PX;
+}
+
+.card h6 {
+  color: var(--blue);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* absolute link  */
+.s_three {
+  position: relative;
+}
+
+.abs_links {
+
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  margin-top: 15px;
+}
+
+.abs_links a {
+  font-size: 18px;
+  margin-left: 16px;
+}
+
+@media (max-width: 1200px) {
+  .abs_links {
+    display: none;
+  }
+}
+
+.Down_links {
+  position: absolute;
+}
+
+@media (min-width:1000px) {
+  .Down_links {
+    display: none;
+
+  }
+}
