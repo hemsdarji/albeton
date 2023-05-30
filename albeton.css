@@ -133,64 +133,24 @@
 }
 
 
-/* section 2 start */
-
-@media (max-width: 411.98px) {
-  .s_three {
-    margin-left: 8px;
-    margin-right: 8px;
-    width: 100%;
-  }
-}
-
-
-.s_three {
-  margin-top: 20PX;
-  margin-bottom: 90PX;
-  padding-left: 112px;
-  padding-right: 112px;
-}
-
-.s_three h1 {
-  font-size: 32px;
-  margin-bottom: 40px;
-  margin-top: 40px;
-
-}
-
-@media (max-width: 575.98px) {
-  .s_three h1 {
-    font-size: 20px;
-  }
-}
+/* section 3 start */
 
 .three_cards {
   display: flex;
+  justify-content: space-between;
 }
-
-@media (max-width: 500px) {
+.card{
+  justify-content: space-between;
+}
+.s_three h1{
+  padding-bottom: 40px;
+}
+@media (max-width: 992px) {
   .three_cards {
-    display: block;
+    display: grid;
+    justify-content: center;
   }
 }
-
-
-
-.card {
-  margin-right: 120px;
-}
-
-.card img {
-  width: 350PX;
-  height: 200PX;
-}
-
-.card h6 {
-  color: var(--blue);
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
-
 /* absolute link  */
 .s_three {
   position: relative;
@@ -217,12 +177,14 @@
 
 .Down_links {
   position: absolute;
+ 
 }
 
-@media (min-width:1000px) {
-  .Down_links {
-    display: none;
 
+@media (min-width:1000px) {
+  .Down_links a{
+    display: none;
+   
   }
 }
 
@@ -256,7 +218,7 @@
   font-weight: bold;
 }
 
-/* section five */
+/* section five row 1*/
 
 .s_five {
   margin-top: 100px;
@@ -281,14 +243,25 @@
   display: flex;
   margin-top: 32px;
   margin-bottom: 32px;
- 
+  justify-content: space-between
+}
+@media (max-width: 1200px) {
+    .r_one{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cg_1{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 }
 
 /* cg_1  /cg_1 /cg_1  */
 
-.cg_1{
- padding-right: 72px;
-}
 
 .cg_1 a{
   display: grid;
@@ -313,10 +286,23 @@
   border: none;
   background-color: rgb(233, 233, 234);
 }
+
 .cg_1 button{
   
   background-color: var(--blue);
   color: var(--white);
   font-size: 16px;
   padding:8px 24px;
+}
+/* row 2 */
+.r_two{
+  display: flex;
+}
+.cg_2 a{
+display: grid;
+text-decoration: none;
+color: var(--black);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 100;
 }
