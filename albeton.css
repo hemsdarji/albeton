@@ -294,9 +294,16 @@
   font-size: 16px;
   padding:8px 24px;
 }
+
+
 /* row 2 */
+
 .r_two{
   display: flex;
+  margin-top: 80px;
+}
+.cg_2{
+  padding-right: 88px;
 }
 .cg_2 a{
 display: grid;
@@ -306,3 +313,15 @@ color: var(--black);
   padding-bottom: 8px;
   font-weight: 100;
 }
+.drop_menu{
+  display: flex;
+}
+.drop_menu button{
+  font-size: 12px;
+  padding: 8px 80px;
+  background-color: rgb(216, 230, 230);
+  margin-right: 8px;
+  border-radius: 0;
+}
+
+
