@@ -28,7 +28,7 @@
   .nav_half ul {
     display: none;
   }
-
+}
   @media (max-width: 575.98px) {
     .nav_finish {
       display: none;
@@ -40,7 +40,7 @@
       display: none;
     }
   }
-}
+
 
 .nav_half {
   display: flex;
